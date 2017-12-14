@@ -1,0 +1,139 @@
+body {
+    background: #eaeaea;
+}
+
+#customize {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 100;
+    height: 118%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+#customize .pup, .up, .low, .back, .sid, .log {
+    border-bottom: 2px solid #404041;
+    border-bottom-width: thick;
+}
+
+#customize .choose-file {
+    z-index: 300;
+    position: absolute;
+}
+
+#customize .box img {
+    margin-top: 5%;
+    width: 100%;
+    position: absolute;
+    z-index: 200;
+}
+
+#customize .puppet {
+    margin-top: 41%;
+    margin-left: 76%;
+    width: 7.5%;
+}
+
+#customize .upper {
+    margin-top: -150%;
+    margin-left: 190%;
+    width: 42%;
+}
+
+#customize .lower {
+    margin-top: 138%;
+    margin-left: 233%;
+    width: 42%;
+}
+
+#customize .background {
+    margin-top: -55%;
+    margin-left: 40%;
+    width: 51%;
+}
+
+#customize .side {
+    margin-top: -102%;
+    margin-left: 273%;
+    width: 38%;
+}
+
+#customize .logo {
+    margin-top: -70%;
+    margin-left: 17%;
+    width: 19%;
+}
+
+#customize .logo p {
+    margin-left: 215%;
+    width: 95%;
+}
+
+.side .text {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+#customize button {
+    margin-left:162%;
+    margin-top: 122%;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+@media only screen and (max-width: 360px) {
+    #customize {
+        width: 90%;
+        height: 165%;
+        margin-left: 5%;
+    }
+    #customize .box img {
+        width: 115%;
+        position: relative;
+        margin-left: -10%;
+    }
+    #customize .choose-file {
+        position: relative;
+    }
+    #customize .puppet {
+        margin-top: -5%;
+        margin-left: 8%;
+        width: 23%;
+    }
+    #customize .upper {
+        margin-top: 5%;
+        margin-left: 8%;
+        width: 42%;
+    }
+    #customize .lower {
+        margin-top: 5%;
+        margin-left: 8%;
+        width: 42%;
+    }
+    #customize .background {
+        margin-top: 5%;
+        margin-left: 8%;
+        width: 51%;
+    }
+    #customize .side {
+        margin-top: 5%;
+        margin-left: 8%;
+        width: 38%;
+    }
+    #customize .logo {
+        margin-top: 5%;
+        margin-left: 8%;
+        width: 19%;
+    }
+    #customize .logo p {
+        margin-left: 0;
+    }
+    #customize button {
+        margin-left: 32.5%;
+        margin-top: 9%;
+    }
+}
